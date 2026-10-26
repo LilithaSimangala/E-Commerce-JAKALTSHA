@@ -10,7 +10,7 @@ const password = ref("");
 const error = ref("");
 const success = ref("");
 
-const API_URL = "http://localhost/JAKALTSHA/backend/routes";
+const API_URL = "/api";
 
 async function login() {
     error.value = "";

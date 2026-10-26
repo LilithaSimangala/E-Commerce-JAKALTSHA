@@ -1,4 +1,4 @@
-const API_URL = "http://localhost/JAKALTSHA/backend/routes";
+const API_URL = "/api";
 
 export async function getMusic() {
     const response = await fetch(`${API_URL}/music.php`);

@@ -9,7 +9,7 @@ const order = ref(null);
 const error = ref("");
 const loading = ref(true);
 
-const API_URL = "http://localhost/JAKALTSHA/backend/routes";
+const API_URL = "/api";
 
 onMounted(async () => {
     try {

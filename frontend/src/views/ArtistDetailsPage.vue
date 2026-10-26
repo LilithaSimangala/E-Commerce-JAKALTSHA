@@ -8,7 +8,7 @@ const artist = ref(null);
 const music = ref([]);
 const error = ref("");
 
-const API_URL = "http://localhost/JAKALTSHA/backend/routes";
+const API_URL = "/api";
 
 onMounted(async () => {
     try {

@@ -51,7 +51,7 @@ async function completePayment() {
     try {
 
         const response = await fetch(
-            "http://localhost/JAKALTSHA/backend/routes/orders.php",
+            "/api/orders.php",
             {
                 method: "POST",
 
